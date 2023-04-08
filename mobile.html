@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet">
+
+        <!-- GSAP -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollToPlugin.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <link rel="stylesheet" href="mobile.css" type="text/css">
+        <!-- BOOTSRTAP  -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- ICONE E DESCRIZIONE -->
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="Giuseppe Gravante Junior Developer"
+            />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <title>Giuseppe Gravante</title>
+    </head>
+
+    <body>
+
+
+        <header>
+            <div id="top"></div>
+            <div id="bottom">
+                <svg class="arrow" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                </div>
+            </header>
+            <div id="main">
+                <div class="container uno" data-color="#61dafb">
+                    <div class="imgContainer">
+                        <img src="assets/reactLogo.png" alt="react logo"
+                            style="height: 50%; ">
+                        <img src="assets/nextLogo.png" alt="next logo"
+                            style="height: 50%; width: 80%;">
+                    </div>
+                    <p>
+                        <a target="_blank" href="https://it.reactjs.org/"
+                            class="notLink">React</a>, una libreria di <b
+                            style="background-color: yellow; padding:
+                            2px;color:
+                            black;">javascript</b>, per la
+                        creazione
+                        di web app veloci, performanti e dall'ottima
+                        estetica,
+                        una libreria in continua crescita che
+                        consente di
+                        venire in contro a tutte le esigenze di stile della
+                        pagina. <br />
+                        React integrato nello stack <span
+                            style="background-color: white;"><span
+                                style="color:green">M</span><span
+                                style="color:green">E</span><span
+                                style="color:blue">R</span><span
+                                style="color:blue">N</span></span>
+                        garantisce, il supporto di un back-end stabile e
+                        capace
+                        di gestire milioni di richieste al secondo.
+                        <br />
+                        NextJS per migliorare il SEO, se si punta a far
+                        conoscere la propria app in tutto il mondo, questo
+                        framework garantisce la massima visibilità
+                        nella pagina di ricerca Google e degli altri
+                        browser.
+                    </p>
+                </div>
+                <div class="container due" data-color="rgb(55, 58, 76)"
+                    style="transform: translateX(-100vw);">
+                    <div class="imgContainer">
+                        <img src="assets/electronLogo.webp" alt="electron">
+                    </div>
+                    <p style="color:white; line-height: 7vw;">
+                        <b style="padding:2px;color: rgb(216, 214, 214); ">Electron</b>
+                        per
+                        i programmi per pc<img src="assets/pcIcon.gif"
+                            alt="pc
+                            icon"
+                            style="background-color: white; width: 20px;
+                            transform: translateY(5px); margin-left:
+                            5px;padding: 2px;"
+                            onmouseenter="this.src='assets/pcIconS.png'"
+                            onmouseleave="this.src='assets/pcIcon.gif'">
+                        , un ottimo framework che sfrutta l'eleganza e la
+                        versatilità
+                        del codice <span style="background-color: orange;
+                            color:
+                            white; padding: 2px;">HTML5</span> + <span
+                            style="background-color: rgb(29, 40, 249);
+                            color:
+                            white; padding: 2px;">CSS</span> e la potenza
+                        di <span style="padding:2px;background-color:
+                            rgb(33,
+                            190, 33); color: white;">Nodejs</span>. <br />
+                        Per app veloci, leggere e con un bell'aspetto questo
+                        è
+                        il framework ideale, anche grandi aziende come
+                        <b>Microsoft, Whatsapp e Skype</b> si affidano ad
+                        Electron per i loro programmi, ecco alcune delle app
+                        create con questo framework: <a target="_blank"
+                            class="linkCustom" target="_blank"
+                            href="https://www.electronjs.org/apps">electron
+                            showcase</a>
+                    </p>
+                </div>
+                <div class="container tre" data-color="white">
+                    <div class="imgContainer">
+                        <img src="assets/expoLogo.webp" alt="expo logo"
+                            style="width: 100%; object-fit: contain;">
+                    </div>
+                    <p class="thirdText" style="color:white; line-height:
+                        7vw;">
+                        <b style="background-color: black; color: white;
+                            padding: 2px;">
+                            Expo, per le applicazioni mobile<img
+                                src="assets/mobileLogo.gif" alt="mobile
+                                logo"
+                                style="background-color: black; width: 20px;
+                                transform: translateY(5px); margin-left:
+                                5px;padding: 2px;">
+                            , si basa sulla piattaforma creata da facebook
+                            React-native, crea delle intefacce mobile di
+                            gran
+                            qualità,
+                            è cross-platform, quindi sia per IOS che per
+                            Andorid. <br>
+                            Con la possibilità di essere rilasciata sul play
+                            store / app store o direttamente distribuita al
+                            publico
+                            tramite altri canali. <br />
+                            Utilizzato da aziende del calibro di <span
+                                style="color: rgb(255, 140, 140);">Facebook,
+                                Microsoft,
+                                Tesla e Pinterest</span>
+                        </b>
+                        <a target="_blank" target="_blank"
+                            href="https://reactnative.dev/showcase"
+                            class="linkCustom2">showcase</a>
+                    </p>
+                </div>
+            </div>
+            <div class="container pythonContainer">
+                <img src="assets/logoPython.png" alt="python logo">
+                <center>
+                    <div class="typewriterOFF">
+                        <h3>Python, per analisi e visualizzazione dati.</h1>
+                    </div>
+                </center>
+            </div>
+            <div id="scroller">
+                <div class="cover">
+                    <div class="wrapper" style="height: 40%;">
+                        <div>
+                            <img src="assets/csv.png" alt="csv icon">
+                        </div>
+                        <div>
+                            <img src="assets/arrow.png" alt="arrow icon">
+                        </div>
+                        <div>
+                            <img src="assets/chart.png" alt="chart icon">
+                        </div>
+                    </div>
+                    <h3 align="center">Dalla sorgente alla visualizzazione
+                        grafica</h3>
+                </div>
+                <div class="item">
+                    <img src="grafici/linea.png" alt="line chart">
+                </div>
+                <div class="item">
+                    <img src="grafici/bar.png" alt="bar chart">
+                </div>
+                <div class="item">
+                    <img src="grafici/pied.png" alt="pie chart">
+                </div>
+                <div class="item" style="flex-direction: column;">
+                    <img src="grafici/scatter.gif" alt="scatter chart">
+                    <img src="grafici/surface.gif" alt="surface chart">
+                </div>
+            </div>
+            <div id="end">
+                <b style="line-height: 20px;">
+                    Sono un Developer Junior con la passione per il web,
+                    i linguaggi con il quale ho più esperienza sono HTML,
+                    CSS,
+                    JAVASCRIPT e PYTHON. <br />
+                    Ho molta esperienza nell'utilizzo di Nodejs e il vasto
+                    universo che lo circonda,
+                    in particolare, la creazione interfacce grafiche con i
+                    framework NextJs e React. <br />
+                    Realizzazione di back-end con express e Flask, ho anche
+                    esperienza nel developing di applicazioni
+                    Windows e MAC con le piattaforma Electron e Tkinter. <br
+                        />
+                    Ho esperienza nello sviluppo di app per IOS e Android
+                    con
+                    React-Native e Expo-cli. <br />
+                    Utilizzo Python per l'analisi e visualizzazione dati con
+                    numpy, pandas, open-cv e matplotlib,
+                    automazione con selenium.<br />
+
+                </b>
+                <br><br><br>
+                <img src="assets/io.jpg" alt="io" />
+            </div>
+            <br><br><br>
+            <div id="footer">
+                <ul>
+                    <li>
+                        <a target="_blank" target="_blank"
+                            href="https://www.github.com/Giuseppe7887">Alcuni
+                            progetti</a>
+                        <img src="assets/stack.png" alt="buildin icon"
+                            style="width: 20px;">
+                    </li>
+                    <li>
+                        <a target="_blank" href="callto:+393661357814">3661357814
+                            <img src="assets/logoTelefono.png" alt="cell
+                                logo"
+                                style="width: 20px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank"
+                            href="mailto:Giuseppegravante078@gmail.com">Giuseppegravante078@gmail.com
+                            <img src="assets/mail.png" alt="mail logo"
+                                style="width: 20px;">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="lateral">
+                    <li>
+                        <a style="cursor: pointer;" data-toggle="modal"
+                            data-target="#iconeModal">icone</p>
+                    </li>
+                    <li style="transform: translateY(-25px);">
+                        <a style="cursor: pointer;" data-toggle="modal"
+                            data-target="#modal">documenti</p>
+                    </li>
+                    <li></li>
+                </ul>
+            </footer>
+            <!-- Modal -->
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-body">
+                            <h4>Cerificazioni</h4>
+                            <ul>
+                                <li><a target="_blank"
+                                        href="assets/linux-server-basic.pdf">linux-server-basics.pdf</a></li>
+                            </ul>
+                            <h4>Curriculum</h4>
+                            <ul>
+                                <li><a target="_blank"
+                                        href="curriculum/Giuseppe_gravante_cv.pdf">Giuseppe_gravante_cv.pdf</a>
+                                </li>
+                                <li><a target="_blank"
+                                        href="curriculum/Giuseppe_gravante_cv.docx">Giuseppe_gravante_cv.docx</a>
+                                </li>
+                                <li><a target="_blank"
+                                        href="curriculum/Giuseppe_gravante_cv.odg">Giuseppe_gravante_cv.odg</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger"
+                                data-dismiss="modal">Chiudi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Icone -->
+            <div class="modal fade" id="iconeModal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Grazie a <a target="_blank"
+                                    target="_blank"
+                                    style="font-size: 20px;"
+                                    href="https://icons8.com/">Icons8</a> e a <a
+                                    style="font-size: 20px;"
+                                    target="_blank"
+                                    href="https://www.flaticon.com/">flaticon</a></h5>
+                            <button type="button" class="close"
+                                data-dismiss="modal"
+                                aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body icon-modal-body">
+                            <a target="_blank"
+                                href="https://icons8.com/icon/JQDgjXVPpnd1/monitor">
+                                <img src="assets/pcIcon.gif" alt="pc icon">
+                            </a>
+                            <a target="_blank"
+                                href="https://icons8.com/icon/VccM9me26DSH/monitor">
+                                <img src="assets/pcIconS.png" alt="static pc
+                                    icon">
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.flaticon.com/free-icons/csv">
+                                <img src="assets/csv.png" alt="csv icon">
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.flaticon.com/free-icons/xlsx">
+                                <img src="assets/xls.png" alt="xls icon">
+                            </a>
+                            <a target="_blank"
+                                href="https://www.flaticon.com/free-icons/json">
+                                <img src="assets/json.png" alt="json icon">
+                            </a>
+
+                            <a target="_blank"
+                                href="https://www.flaticon.com/free-icons/arrows">
+                                <img src="assets/arrow.png" alt="arrow icon">
+                            </a>
+                            <a target="_blank"
+                                href="https://www.flaticon.com/free-icons/pie-chart">
+                                <img src="assets/chart.png" alt="chart icon">
+                            </a>
+                            <a target="_blank"
+                                href="https://icons8.com/icon/uiCge755lurb/phonelink-ring">
+                                <img src="assets/logoTelefono.png" alt="">
+                            </a>
+                            <a target="_blank"
+                                href="https://icons8.com/icon/9659/telefono">
+                                <img src="assets/mobileLogo.gif" alt="phone
+                                    logo">
+                            </a>
+                            <a target="_blank"
+                                href="https://icons8.com/icon/59823/livelli">
+                                <img src="assets/stack.png" alt="build logo">
+                            </a>
+                            <a target="_blank"
+                                href="https://icons8.com/icon/63598/messaggio-riempito">
+                                <img src="assets/mail.png" alt="mail logo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- BOOTSTRAP  -->
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+                <script
+                    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            </body>
+
+            <script src="mobileScript.js"></script>
+        </html>

@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+#header {
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+#back {
+    height: 90vh;
+    width: 100%;
+    background-image: url("./assets/js.webp");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+#sottoHeader {
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow {
+    width: 100px;
+    height: 100px;
+    animation: wave 1s infinite;
+}
+
+#main {
+    width: 100vw;
+    word-wrap: break-word;
+}
+
+
+.first {
+    background-color: white;
+    transform: translateX(-100vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first>img {
+    width: 300px;
+}
+
+.firstText {
+    overflow: hidden;
+    color: white;
+    height: 300px;
+    width: 70%;
+    padding: 50px;
+    line-height: 30px;
+    transform: translateX(100vw);
+    /* overflow: visible !important; */
+}
+
+.second {
+    transform: translateX(100vw);
+    overflow: hidden;
+    border: none;
+}
+
+.second>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.secondText {
+    color: white;
+    overflow: hidden;
+    height: 300px;
+    width: 50%;
+    padding: 50px;
+    line-height: 35px;
+    transform: translateX(-100vw);
+}
+
+.third {
+    transform: translateX(-500px);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thirdText {
+    transform: translateX(100vw);
+    word-wrap: break-word;
+    overflow: hidden;
+    height: 300px;
+    width: 50%;
+    padding: 50px;
+    line-height: 35px;
+}
+
+.notLink {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.notLink:hover {
+    text-decoration: underline;
+}
+
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px black solid;
+}
+
+.containerBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 300px;
+}
+
+.linkCustom {
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    padding: 2px;
+    text-decoration: none;
+    transition: all .2s;
+    border-radius: 10px;
+}
+
+.linkCustom:hover {
+    padding: 4px;
+    transition: all .2s;
+}
+
+.linkCustom2 {
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+#pythonShowcase {
+    width: 100vw;
+    height: 400vh;
+}
+
+/* sezione python */
+.pythonContainer {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    transform: translateX(100%);
+}
+
+.pythonContainer>img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.imagesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.wrapper{
+    scroll-snap-align: center;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.scroller{
+    overflow-x: scroll;
+    /* scroll-snap-points-x: repeat(100vw); */
+    scroll-snap-type: x mandatory;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 500vw;
+    height: 100vh;
+    /* flex-direction: row; */
+}
+
+.chart{
+    scroll-snap-align: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.chart > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.typewriterOFF > h1{
+    color: white;
+    font-size: 1em;
+}
+
+.typewriter{
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.typewriter h1 {
+    font-size: 1em;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 1s steps(200, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  .end{
+    width: 100%;
+    height: 200px;
+    background-color: #61dafb;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .end > div{
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  li{
+    margin-bottom: 20px;
+  }
+  .end a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .icon-modal-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .icon-modal-body img {
+    width: 30px;
+   }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+@keyframes wave {
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/* ::-webkit-scrollbar {
+    display: none;
+  }
+   */
